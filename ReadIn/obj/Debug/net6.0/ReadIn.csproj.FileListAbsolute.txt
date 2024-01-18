@@ -1,0 +1,15 @@
+C:\ReadIn\bin\Debug\net6.0\ReadIn.exe
+C:\ReadIn\bin\Debug\net6.0\ReadIn.deps.json
+C:\ReadIn\bin\Debug\net6.0\ReadIn.runtimeconfig.json
+C:\ReadIn\bin\Debug\net6.0\ReadIn.dll
+C:\ReadIn\bin\Debug\net6.0\ReadIn.pdb
+C:\ReadIn\obj\Debug\net6.0\ReadIn.csproj.AssemblyReference.cache
+C:\ReadIn\obj\Debug\net6.0\ReadIn.GeneratedMSBuildEditorConfig.editorconfig
+C:\ReadIn\obj\Debug\net6.0\ReadIn.AssemblyInfoInputs.cache
+C:\ReadIn\obj\Debug\net6.0\ReadIn.AssemblyInfo.cs
+C:\ReadIn\obj\Debug\net6.0\ReadIn.csproj.CoreCompileInputs.cache
+C:\ReadIn\obj\Debug\net6.0\ReadIn.dll
+C:\ReadIn\obj\Debug\net6.0\refint\ReadIn.dll
+C:\ReadIn\obj\Debug\net6.0\ReadIn.pdb
+C:\ReadIn\obj\Debug\net6.0\ReadIn.genruntimeconfig.cache
+C:\ReadIn\obj\Debug\net6.0\ref\ReadIn.dll
