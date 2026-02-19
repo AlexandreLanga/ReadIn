@@ -1,11 +1,10 @@
 ﻿using ReadIn.Domain.Entities;
 
-namespace ReadIn.Interfaces
+namespace ReadIn.Interfaces.ILivro
 {
-    internal interface ILivroRepository
+    public interface ILivroRepository
     {
         void SalvarLivro(Livro livro);
-        void SalvarLeitura(Leitura leitura);
         string[] LerLivros();
     }
 }

@@ -1,6 +1,8 @@
 ﻿using ReadIn.Domain.Services;
-using ReadIn.Interfaces;
-using ReadIn.Repositories;
+using ReadIn.Interfaces.ILeitura;
+using ReadIn.Interfaces.ILivro;
+using ReadIn.Repositories.LeituraRepository;
+using ReadIn.Repositories.LivroRepository;
 using ReadIn.UI;
 
 namespace ReadIn
@@ -16,7 +18,10 @@ namespace ReadIn
             LivroRepository livroRepository = new LivroRepository();
             ILivroService livroService = new LivroService(livroRepository);
 
-            Menu menu = new Menu(livroService);
+            LeituraRepository leituraRepository = new LeituraRepository();
+            ILeituraService leituraService = new LeituraService(leituraRepository,livroService);
+
+            Menu menu = new Menu(livroService, leituraService);
             menu.ExibirMenu();
         }
     }
