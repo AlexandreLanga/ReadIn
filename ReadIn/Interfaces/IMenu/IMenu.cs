@@ -1,4 +1,4 @@
-﻿namespace ReadIn.Interfaces
+﻿namespace ReadIn.Interfaces.IMenu
 {
     public interface IMenu
     {
